@@ -1,4 +1,4 @@
-# FunctionalObservability
+# Functional Observability
 Functional observability analysis, minimum sensor placement and minimum-order functional observer design on large-scale dynamical networks, including applications to power grids and epidemics.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
@@ -33,7 +33,7 @@ Both algorithms are further described in Refs. [1, 2] and codes "find_msp.m" and
 
 # References
 1. A. N. Montanari, C. Duan, L. A. Aguirre, A. E. Motter. Functional observability and target state estimation in large-scale networks.
-2. A. N. Montanari. Observability of Dynamical Networks. PhD Thesis, Universidade Federal de Minas Gerais (2021).
+2. A. N. Montanari. Observability of Dynamical Networks. PhD Thesis, Universidade Federal de Minas Gerais (2021) [https://www.ppgee.ufmg.br/defesas/1597D.PDF].
 3. M. Darouach. Existence and Design of Functional Observers for Linear Systems. IEEE Transactions on Automatic Control 45, 940-943 (2000).
 4. T. Hieu, F. Tyrone. Functional Observers for Dynamical Systems. Springer Berlin Heidelberg (2012).
 
