@@ -1,4 +1,4 @@
-# Functional Observability
+# Functional Observability of Networks
 Functional observability analysis, minimum sensor placement and minimum-order functional observer design on large-scale dynamical networks, including applications to power grids and epidemics.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
