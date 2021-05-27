@@ -16,7 +16,7 @@ For the cyber-attack detection problem in power grids (`example_cyberdetection`)
 
 # Usage
 
-The following codes are direct implementations of the minimum sensor placement algorithm and the minimum-order functional observer design proposed in Refs. [1].
+The following codes are direct implementations of the minimum sensor placement algorithm and the minimum-order functional observer design proposed in Ref. [1].
 
 - `find_msp` : Finds the minimum set of sensor nodes required for the system functional observability with respect to a set of target nodes. This is a MATLAB implementation of Algorithm 1 in Ref. [1].
 
