@@ -37,7 +37,7 @@ Both algorithms are further described in Ref. [1] and codes `find_msp.m` and `fi
 
 - `example_cyberdetection` : Example of cyber-attack detection in power grids using functional observers and target state estimation.
 
-- `example_epidemicspreading` : Example of sensor placement and observer design for target state estimation in epidemics.
+- `example_epidemicspreading` : Example of sensor placement and observer design for infection rate estimation in target populations during epidemics.
 
 
 
