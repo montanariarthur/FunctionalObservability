@@ -23,7 +23,7 @@ The following codes are direct implementations of the minimum sensor placement a
 
 - `find_F0` : Finds F0 with minimum-order such that Darouach's condition (4) in Ref. [1] is satisfied for a triple (A,C,F0). This is a MATLAB implementation of Algorithm 2 in Ref. [1].
 
-- `functobsv_design` : Designs the functional observer's matrices (N,J,H,D,E) in Ref. [1, Equation (10)]. The design method, originally proposed in Ref. [2], is guaranteed to provide a stable functional observer if the triple (A,C,F0) satisfies Darouach's conditions (4-5) in Ref. [1]. This code provides a MATLAB implementation of Algorithm 3.5.1 in Ref. [2].
+- `functobsv_design` : Designs the functional observer's matrices (N,J,H,D,E) in Ref. [1, Equation (10)]. The design method, originally proposed in Ref. [2], is guaranteed to provide a stable functional observer if the triple (A,C,F0) satisfies Darouach's conditions (4-5) in Ref. [1]. This is a MATLAB implementation of Algorithm 3.5.1 in Ref. [2].
 
 
 
