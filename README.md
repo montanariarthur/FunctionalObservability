@@ -10,10 +10,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 The full text of the GNU General Public License can be found in the file "LICENSE.txt".
 
 
-# Dependency
-For the cyber-attack detection problem in power grids (`example_cyberdetection`), Matpower 6.0 (https://matpower.org/download/) is required for the power flow calculation.
-
-
 # Usage
 
 
@@ -48,6 +44,9 @@ The above examples are dependent on the following codes:
 - `functobsv_sys` : Represents the ODEs of a functional observer as stated in Ref. [1], Eq. (10).
 - `spnull`,`sporth` :  Computes a sparse orthonormal basis for the null space of S and the range of S, respectively.
 
+
+# Dependency
+For the cyber-attack detection problem in power grids (`example_cyberdetection`), Matpower 6.0 (https://matpower.org/download/) is required for the power flow calculation.
 
 
 
