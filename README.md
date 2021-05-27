@@ -56,5 +56,4 @@ The above examples are dependent on the following codes:
 # References
 1. Arthur N. Montanari, Chao Duan, Luis A. Aguirre, Adilson E. Motter (**2021**). Functional observability and target state estimation in large-scale networks.
 2. Trinh Hieu, Fernando Tyrone (**2012**). Functional Observers for Dynamical Systems. *Springer Berlin Heidelberg*.
-3. Mohamed Darouach (**2000**). Existence and Design of Functional Observers for Linear Systems. *IEEE Transactions on Automatic Control*, 45(5), 940–943. https://doi.org/10.21521/mw.5774
 
