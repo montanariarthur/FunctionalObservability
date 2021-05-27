@@ -36,7 +36,7 @@ Both algorithms are further described in Ref. [1] and codes `find_msp.m` and `fi
 - `example_epidemicspreading` : Example of sensor placement and observer design for target state estimation in epidemics.
 
 # References
-1. A. N. Montanari, C. Duan, L. A. Aguirre, A. E. Motter. Functional observability and target state estimation in large-scale networks.
-2. M. Darouach. Existence and Design of Functional Observers for Linear Systems. IEEE Transactions on Automatic Control 45, 940-943 (2000).
-3. T. Hieu, F. Tyrone. Functional Observers for Dynamical Systems. Springer Berlin Heidelberg (2012).
+1. Arthur N. Montanari, Chao Duan, Luis A. Aguirre, Adilson E. Motter (**2021**). Functional observability and target state estimation in large-scale networks.
+2. ‪Mohamed Darouach (**2000**). Existence and Design of Functional Observers for Linear Systems. IEEE Transactions on Automatic Control 45, 940-943.
+3. Trinh Hieu, Fernando Tyrone (**2012**). Functional Observers for Dynamical Systems. Springer Berlin Heidelberg.
 
