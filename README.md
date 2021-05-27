@@ -16,6 +16,7 @@ For the cyber-attack detection problem in power grids (`example_cyberdetection`)
 
 # Usage
 
+
 The following codes are direct implementations of the minimum sensor placement algorithm and the minimum-order functional observer design proposed in Ref. [1].
 
 - `find_msp` : Finds the minimum set of sensor nodes required for the system functional observability with respect to a set of target nodes. This is a MATLAB implementation of Algorithm 1 in Ref. [1].
@@ -24,7 +25,10 @@ The following codes are direct implementations of the minimum sensor placement a
 
 - `functobsv_design` : Designs the functional observer's matrices (N,J,H,D,E) in Ref. [1, Equation (10)]. The design method, originally proposed in Ref. [2], is guaranteed to provide a stable functional observer if the triple (A,C,F0) satisfies Darouach's conditions (4-5) in Ref. [1]. This code provides a MATLAB implementation of Algorithm 3.5.1 in Ref. [2].
 
-The following examples illustrates numerical results of the algorithms described above in applications to large-scale complex networks, power grids and epidemics.
+
+
+
+The following examples illustrates numerical results of the algorithms described above in applications to large-scale complex networks, power grids and epidemics. For more details, see the full description in each file.
 
 - `example_dynamicalnetwork` : Example of minimum sensor placement and minimum-order functional observer design for a random complex dynamical networks. This code examplifies how to:
     1. apply Algorithm 1 to determine the minimum set of sensor nodes for functional observability of a dynamical network with respect to a given set of target nodes; and
@@ -35,7 +39,22 @@ Both algorithms are further described in Ref. [1] and codes `find_msp.m` and `fi
 
 - `example_epidemicspreading` : Example of sensor placement and observer design for target state estimation in epidemics.
 
+
+
+
+The above examples are dependent on the following codes:
+
+- `odeRK` : Implements the numerical integration algorithm Runge Kutta 4th order.
+- `functobsv_sys` : Represents the ODEs of a functional observer (see Ref. [1], Eq. (10), for details).
+- `spnull`,`sporth` :  Computes a sparse orthonormal basis for the null space of S and the range of S, respectively.
+
+
+
+
+
+
 # References
 1. Arthur N. Montanari, Chao Duan, Luis A. Aguirre, Adilson E. Motter (**2021**). Functional observability and target state estimation in large-scale networks.
-2. Trinh Hieu, Fernando Tyrone (**2012**). Functional Observers for Dynamical Systems. Springer Berlin Heidelberg.
+2. Trinh Hieu, Fernando Tyrone (**2012**). Functional Observers for Dynamical Systems. *Springer Berlin Heidelberg*.
+3. Mohamed Darouach (**2000**). Existence and Design of Functional Observers for Linear Systems. *IEEE Transactions on Automatic Control*, 45(5), 940–943. https://doi.org/10.21521/mw.5774
 
