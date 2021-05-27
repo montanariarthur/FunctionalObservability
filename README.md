@@ -45,7 +45,7 @@ Both algorithms are further described in Ref. [1] and codes `find_msp.m` and `fi
 The above examples are dependent on the following codes:
 
 - `odeRK` : Implements the numerical integration algorithm Runge Kutta 4th order.
-- `functobsv_sys` : Represents the ODEs of a functional observer (see Ref. [1], Eq. (10), for details).
+- `functobsv_sys` : Represents the ODEs of a functional observer as stated in Ref. [1], Eq. (10).
 - `spnull`,`sporth` :  Computes a sparse orthonormal basis for the null space of S and the range of S, respectively.
 
 
