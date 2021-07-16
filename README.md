@@ -1,5 +1,5 @@
 # Functional Observability of Networks
-Functional observability analysis, minimum sensor placement and minimum-order functional observer design on large-scale dynamical networks, including applications to power grids and epidemics. 
+Functional observability analysis, minimum sensor placement and minimum-order functional observer design for target state estimation in large-scale dynamical networks, including applications to power grids and epidemics. 
 
 # License
 
