@@ -41,7 +41,8 @@ Both algorithms are further described in Ref. [1] and codes `find_msp.m` and `fi
 The above examples are dependent on the following codes:
 
 - `odeRK` : Implements the numerical integration algorithm Runge Kutta 4th order.
-- `functobsv_sys` : Represents the ODEs of a functional observer as stated in Ref. [1], Eq. (10).
+- `functobsv_sys`,`functobsv_nonlinearsys` : Represents the ODEs of a linear functional observer (Ref. [1], Eq. (10)) and a nonlinear functional observer (Ref. [1], Eq. (S-24)), respectively.
+- `kuramotoPG_SP`,`SIRDnet` : Ordinary differential equations of the power grid model (Ref. [1], Eq. (6-7)) and the multi-group epidemiological model (Ref. [1], Eq. (9)), respectively.
 - `spnull`,`sporth` :  Computes a sparse orthonormal basis for the null space of S and the range of S, respectively.
 
 
