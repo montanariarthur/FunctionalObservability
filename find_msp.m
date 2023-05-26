@@ -16,6 +16,7 @@ function S = find_msp(A,T,Cand,k)
 %
 %   [1] A. N. Montanari, C. Duan, L. A. Aguirre, A. E. Motter. Functional
 %       observability and target state estimation in large-scale networks.
+%       Proceedings of the National Academy of Sciences 119(1):e2113750119 (2022).
 
 % Copyright (C) 2021  Arthur Montanari
 % 
